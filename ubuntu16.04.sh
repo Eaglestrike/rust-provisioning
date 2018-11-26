@@ -3,7 +3,7 @@
 set -euxo pipefail
 
 sudo apt update
-sudo apt install base-develop
+sudo apt install base-develop curl
 sudo apt install llvm-5.0-dev libclang-5.0-dev clang-5.0
 
 sudo apt install -y --no-install-recommends software-properties-common;
